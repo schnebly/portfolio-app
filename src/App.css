@@ -14,3 +14,9 @@
   top: 25%;
   position: relative;
 }
+
+.icon {
+  width: 64px;
+  height: 64px;
+  margin: 8px;
+}
