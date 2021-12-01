@@ -1,7 +1,8 @@
 import React from "react";
-import "./App.css";
+import "./Landing.css";
+import { FaGithub, FaLinkedin, FaMedium } from "react-icons/fa";
 
-function App() {
+const Landing = () => {
   return (
     <div className="Landing">
       <div className="heroContents">
@@ -18,23 +19,26 @@ function App() {
             target="_blank"
             rel="noreferrer"
           >
-            <img
-              src="GitHub-64px.png"
-              alt="Github Icon Link"
-              className="icon"
-            />
+            <FaGithub color="black" className="icon" />
           </a>
           <a
             href="https://www.github.com/schnebly"
             target="_blank"
             rel="noreferrer"
           >
-            <img src="linkedin.png" alt="LinkedIn Icon Link" className="icon" />
+            <FaLinkedin color="black" className="icon" />
+          </a>
+          <a
+            href="https://medium.com/@jameschnebly"
+            target="_blank"
+            rel="noreferrer"
+          >
+            <FaMedium color="black" className="icon" />
           </a>
         </div>
       </div>
     </div>
   );
-}
+};
 
-export default App;
+export default Landing;

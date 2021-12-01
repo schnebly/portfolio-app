@@ -1,6 +1,6 @@
 .Landing {
   background: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.5)),
-    url("./assets/landing.jpg");
+    url("../../assets/landing.jpg");
   height: 100vh;
   background-position: center;
   background-repeat: no-repeat;
@@ -13,10 +13,12 @@
   color: white;
   top: 25%;
   position: relative;
+  font-size: 22px;
+  text-shadow: -1px 1px 10px rgba(0, 0, 0, 0.75);
 }
 
 .icon {
-  width: 64px;
-  height: 64px;
+  width: 48px;
+  height: 48px;
   margin: 8px;
 }
