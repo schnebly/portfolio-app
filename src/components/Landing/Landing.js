@@ -15,14 +15,14 @@ const Landing = () => {
           }}
         >
           <a
-            href="https://www.linkedin.com/in/schnebly/"
+            href="https://www.github.com/schnebly"
             target="_blank"
             rel="noreferrer"
           >
             <FaGithub color="black" className="icon" />
           </a>
           <a
-            href="https://www.github.com/schnebly"
+            href="https://www.linkedin.com/in/schnebly/"
             target="_blank"
             rel="noreferrer"
           >
